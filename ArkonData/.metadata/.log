@@ -6664,3 +6664,21 @@ java.lang.Exception: File not found: C:\Users\rogel\OneDrive\Documentos\GitHub\a
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2021-09-23 00:37:28.265
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 00:37:37.566
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 00:37:37.573
+!MESSAGE classpath=107 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 00:37:37.578
+!MESSAGE buffering callback sts4.classpath.TUPVcNNX ArkonData false 107
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 00:37:37.579
+!MESSAGE executing callback sts4.classpath.TUPVcNNX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 00:37:37.607
+!MESSAGE executing callback sts4.classpath.TUPVcNNX SUCCESS [done]
