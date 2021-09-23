@@ -1,0 +1,13 @@
+package com.example.data.pepiline.arkon.data.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.data.pepiline.arkon.data.service.MetrobusImplementsService;
+
+@RestController
+public class MetrobusController {
+	
+	@Autowired
+	private MetrobusImplementsService metrobusImplementsService;
+}

@@ -1,0 +1,52 @@
+package com.example.data.pepiline.arkon.data.models;
+
+import java.io.Serializable;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+import com.sun.istack.NotNull;
+
+public class Alcaldia implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id_alcaldia;
+	
+	@NotNull
+	private String nombre;
+	
+	@NotNull
+	private String estado;
+
+	public Long getId_alcaldia() {
+		return id_alcaldia;
+	}
+
+	public void setId_alcaldia(Long id_alcaldia) {
+		this.id_alcaldia = id_alcaldia;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getEstado() {
+		return estado;
+	}
+
+	public void setEstado(String estado) {
+		this.estado = estado;
+	}
+	
+	
+}

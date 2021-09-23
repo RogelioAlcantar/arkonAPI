@@ -1,0 +1,7 @@
+INSERT INTO alcaldias (nombre, estado, alcaldia_status) VALUES ('TLALPAN', 'CDMX', 1);
+INSERT INTO alcaldias (nombre, estado, alcaldia_status) VALUES ('NEZHA', 'CDMX', 2);
+
+INSERT INTO VEHICULOS(id_vehiculo, vehicle_label, vehicle_current_status) VALUES (170, 112 , 2);
+INSERT INTO VEHICULOS(id_vehiculo, vehicle_label, vehicle_current_status) VALUES (177, 119, 1);
+
+INSERT INTO ESTACIONES(position_latitude, position_longitude, geographic_point, alcaldia_id_alcaldia) VALUES (19.31749916, -99.18779755, '19.3174991608,-99.1877975464', 1);

@@ -1,0 +1,65 @@
+package com.example.data.pepiline.arkon.data.models;
+
+import java.io.Serializable;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
+import com.sun.istack.NotNull;
+
+public class Estacion implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id_estacion;
+	
+	@NotNull
+	private Double position_latitude;
+	
+	@NotNull
+	private Double position_longitude;
+	
+	@ManyToOne
+	private Alcaldia alcaldia;
+
+	public Long getId_estacion() {
+		return id_estacion;
+	}
+
+	public void setId_estacion(Long id_estacion) {
+		this.id_estacion = id_estacion;
+	}
+
+	public Double getPosition_latitude() {
+		return position_latitude;
+	}
+
+	public void setPosition_latitude(Double position_latitude) {
+		this.position_latitude = position_latitude;
+	}
+
+	public Double getPosition_longitude() {
+		return position_longitude;
+	}
+
+	public void setPosition_longitude(Double position_longitude) {
+		this.position_longitude = position_longitude;
+	}
+
+	public Alcaldia getAlcaldia() {
+		return alcaldia;
+	}
+
+	public void setAlcaldia(Alcaldia alcaldia) {
+		this.alcaldia = alcaldia;
+	}
+	
+	
+
+}

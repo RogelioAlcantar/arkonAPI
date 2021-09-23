@@ -1,0 +1,40 @@
+package com.example.data.pepiline.arkon.data.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.data.pepiline.arkon.data.models.Alcaldia;
+import com.example.data.pepiline.arkon.data.models.Vehiculo;
+import com.example.data.pepiline.arkon.data.repository.MetrobusRepository;
+import com.example.data.pepiline.arkon.data.service.AlcaldiaService;
+import com.example.data.pepiline.arkon.data.service.EstacionService;
+import com.example.data.pepiline.arkon.data.service.VehiculoService;
+
+@RestController
+public class MetrobusController {
+	
+	@Autowired
+	private AlcaldiaService alcaldiaService;
+	
+	@Autowired
+	private EstacionService estacionService;
+	
+	@Autowired
+	private MetrobusRepository metrobusRepository;
+	
+	@Autowired
+	private VehiculoService vehiculoService;
+	
+	@GetMapping("/alcaldias/disponibles")
+	public ResponseEntity<Object> alcaldiasDisponibles(){
+		return new ResponseEntity<>(alcaldiaService.listaAlcaldía(), HttpStatus.OK);
+	}
+	
+	@GetMapping("/vehiculos/disponibles")
+	public ResponseEntity<Object> alcaldiasDisponibles(){
+		return new ResponseEntity<>(alcaldiaService.listaAlcaldía(), HttpStatus.OK);
+	}
+}

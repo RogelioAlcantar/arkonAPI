@@ -1,0 +1,28 @@
+package com.example.data.pepiline.arkon.data.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.data.pepiline.arkon.data.models.Metrobus;
+import com.example.data.pepiline.arkon.data.repository.MetrobusRepository;
+
+@Service
+public class MetrobusImplementsService implements MetrobusIService{
+
+	@Autowired
+	private MetrobusRepository metrobusReposiroty; 
+	
+	@Override
+	public List<Metrobus> buscarDisponibles(Long id) {
+		return metrobusReposiroty.findByVehicle_current_status(vehicle_current_status);
+	}
+
+	@Override
+	public Metrobus consultarHistorial(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,418 @@
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',170,112,2,19.31749916,-99.18779755,'19.3174991608,-99.1877975464',16,231,2,NULL,NULL,367
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',177,119,1,19.29260063,-99.17749786,'19.2926006317,-99.1774978638',13,0,0,9732304,20200428,367
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1286,219,2,19.45009995,-99.11009979,'19.4500999451,-99.1100997925',5,0,0,9678929,20200428,161
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1302,235,1,19.38920021,-99.05979919,'19.3892002106,-99.0597991943',4,0,0,9738091,20200428,301
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',361,303,2,19.38260078,-99.06130219,'19.3826007843,-99.0613021851',0,454,0,9738145,20200428,301
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',370,312,2,19.38990021,-99.05889893,'19.3899002075,-99.0588989258',0,1790,2,NULL,NULL,NULL
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',371,313,1,19.47920036,-99.06390381,'19.4792003632,-99.0639038086',0,1635,2,NULL,NULL,NULL
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',409,351,2,19.40390015,-99.17240143,'19.4039001465,-99.1724014282',12,131,0,9736261,20200428,301
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',449,391,1,19.4034996,-99.17040253,'19.4034996033,-99.1704025269',5,0,0,9736737,20200428,301
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1,401,2,19.42700005,-99.14900208,'19.4270000458,-99.1490020752',3,668,0,9685594,20200428,1
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',33,433,2,19.49160004,-99.15270233,'19.4916000366,-99.1527023315',0,213,0,9685029,20200428,1
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',38,438,2,19.42000008,-99.15419769,'19.4200000763,-99.1541976929',2,0,0,9683873,20200428,1
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',39,439,2,19.39710045,-99.15589905,'19.3971004486,-99.1558990479',0,288,2,NULL,NULL,NULL
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',40,440,2,19.40430069,-99.15540314,'19.4043006897,-99.1554031372',10,308,0,9686124,20200428,1
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',53,453,2,19.51199913,-99.16049957,'19.5119991302,-99.1604995728',13,369,0,9684965,20200428,1
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1148,462,2,19.51729965,-99.16269684,'19.5172996521,-99.1626968384',13,295,0,9684625,20200428,1
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1149,463,2,19.50629997,-99.15840149,'19.5062999725,-99.1584014893',13,253,0,9684521,20200428,1
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',981,467,2,19.43770027,-99.14790344,'19.4377002716,-99.1479034424',5,244,0,9685475,20200428,1
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',982,468,2,19.52610016,-99.16809845,'19.5261001587,-99.1680984497',2,441,0,9684797,20200428,1
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',984,470,2,19.44280052,-99.14800262,'19.4428005219,-99.1480026245',11,350,0,9684033,20200428,1
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',985,471,1,19.48399925,-99.14980316,'19.4839992523,-99.1498031616',5,0,0,9685140,20200428,1
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',467,509,1,19.43729973,-99.14589691,'19.4372997284,-99.1458969116',3,0,0,9755307,20200428,241
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',483,525,1,19.43610001,-99.12139893,'19.4361000061,-99.1213989258',0,0,0,9755507,20200428,241
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',486,528,1,19.42900085,-99.13210297,'19.4290008545,-99.1321029663',6,0,0,9755730,20200428,241
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',490,532,2,19.43560028,-99.11640167,'19.4356002808,-99.1164016724',3,214,0,9755357,20200428,241
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',491,533,1,19.44499969,-99.15229797,'19.4449996948,-99.1522979736',0,0,0,9755605,20200428,241
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',492,534,2,19.43560028,-99.15460205,'19.4356002808,-99.1546020508',0,385,0,9755186,20200428,241
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',496,538,2,19.4409008,-99.15260315,'19.4409008026,-99.1526031494',4,203,0,9755218,20200428,241
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',512,554,1,19.4307003,-99.1155014,'19.4307003021,-99.1155014038',0,0,0,9755460,20200428,241
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',557,614,2,19.42910004,-99.11430359,'19.4291000366,-99.1143035889',11,1015,2,NULL,NULL,NULL
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',562,619,2,19.49740028,-99.08969879,'19.4974002838,-99.0896987915',0,499,0,9679510,20200428,161
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',10000,620,2,19.4321003,-99.11509705,'19.432100296,-99.1150970459',7,85,0,9679007,20200428,161
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1085,712,2,19.49530029,-99.15480042,'19.495300293,-99.154800415',11,169,0,9740927,20200428,61
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1115,762,2,19.47579956,-99.08989716,'19.4757995605,-99.0898971558',10,324,0,9739719,20200428,61
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1120,767,2,19.49069977,-99.13310242,'19.4906997681,-99.133102417',1,0,0,9741043,20200428,61
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1132,784,2,19.4734993,-99.07029724,'19.4734992981,-99.0702972412',10,263,0,9739559,20200428,61
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',702,802,1,19.48349953,-99.11389923,'19.483499527,-99.113899231',5,0,0,9673172,20200428,171
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',705,805,2,19.48749924,-99.11380005,'19.4874992371,-99.1138000488',0,547,0,9673362,20200428,171
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',713,813,2,19.45459938,-99.13020325,'19.4545993805,-99.1302032471',8,223,0,9673662,20200428,171
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',716,816,2,19.42580032,-99.19309998,'19.4258003235,-99.1930999756',3,643,0,9670725,20200428,171
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',753,905,2,19.45339966,-99.13079834,'19.4533996582,-99.1307983398',5,0,0,9672098,20200428,171
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',757,909,2,19.45929909,-99.12840271,'19.4592990875,-99.12840271',0,181,0,9673542,20200428,171
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',760,912,2,19.42679977,-99.19940186,'19.4267997742,-99.1994018555',0,0,2,NULL,NULL,NULL
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',766,918,2,19.42980003,-99.16149902,'19.4298000336,-99.1614990234',5,147,0,9674093,20200428,171
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',787,939,2,19.48730087,-99.11370087,'19.4873008728,-99.1137008667',0,531,0,9671181,20200428,171
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',789,941,1,19.44379997,-99.13909912,'19.4437999725,-99.1390991211',0,0,0,9673841,20200428,171
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1253,1000,2,19.39590073,-99.15660095,'19.3959007263,-99.1566009521',1,759,0,9736034,20200428,301
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',531,1057,1,19.27939987,-99.16899872,'19.2793998718,-99.1689987183',3,0,0,9732533,20200428,367
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1174,1093,2,19.41939926,-99.16429901,'19.4193992615,-99.1642990112',2,310,0,9731219,20200428,367
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1160,1101,1,19.49889946,-99.11940002,'19.4988994598,-99.1194000244',0,96,2,NULL,NULL,NULL
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1165,1106,1,19.41990089,-99.16410065,'19.4199008942,-99.164100647',3,0,0,9730577,20200428,367
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',988,1111,1,19.39819908,-99.1710968,'19.3981990814,-99.1710968018',0,0,0,9731606,20200428,367
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',990,1113,2,19.30170059,-99.18589783,'19.301700592,-99.1858978271',14,243,0,9729664,20200428,367
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1220,1115,2,19.44120026,-99.1548996,'19.4412002563,-99.1548995972',4,0,2,NULL,NULL,NULL
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1067,1304,2,19.49729919,-99.11969757,'19.4972991943,-99.1196975708',5,0,0,9734363,20200428,367
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1069,1306,1,19.49760056,-99.11940002,'19.4976005554,-99.1194000244',0,0,0,9734546,20200428,367
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1188,2306,2,19.40559959,-99.1855011,'19.4055995941,-99.1855010986',11,437,0,9736315,20200428,301
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1190,2308,1,19.48220062,-99.10559845,'19.4822006226,-99.1055984497',0,0,0,9741359,20200428,61
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1191,2309,2,19.48010063,-99.10089874,'19.4801006317,-99.1008987427',8,0,0,9739779,20200428,61
+);
+
+/* INSERT QUERY */
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+(
+    '27/01/2021 18:00',1236,2312,2,19.4041996,-99.1733017,'19.4041996002,-99.1733016968',10,0,0,9736177,20200428,301
+);

@@ -1,0 +1,4 @@
+INSERT INTO alcaldias (nombre, estado) VALUES ("TLALPAN", "CDMX");
+
+INSERT INTO vehiculos(id_vehiculo, vehicle_label, vehicle_current_status) VALUES (170, 112 , 2);
+

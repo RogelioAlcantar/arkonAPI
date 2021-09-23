@@ -1,0 +1,49 @@
+package com.example.data.pepiline.arkon.data.models;
+
+import java.io.Serializable;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+public class Vehiculo implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id_vehiculo;
+	
+	private Long vehicle_label;
+	
+	private Long vehicle_current_status;
+
+	public Long getId_vehiculo() {
+		return id_vehiculo;
+	}
+
+	public void setId_vehiculo(Long id_vehiculo) {
+		this.id_vehiculo = id_vehiculo;
+	}
+
+	public Long getVehicle_label() {
+		return vehicle_label;
+	}
+
+	public void setVehicle_label(Long vehicle_label) {
+		this.vehicle_label = vehicle_label;
+	}
+
+	public Long getVehicle_current_status() {
+		return vehicle_current_status;
+	}
+
+	public void setVehicle_current_status(Long vehicle_current_status) {
+		this.vehicle_current_status = vehicle_current_status;
+	}
+	
+
+
+}

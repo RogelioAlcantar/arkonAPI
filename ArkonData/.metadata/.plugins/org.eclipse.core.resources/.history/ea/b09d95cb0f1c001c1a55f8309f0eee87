@@ -1,0 +1,65 @@
+package com.example.data.pepiline.arkon.data.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.data.pepiline.arkon.data.models.Alcaldia;
+import com.example.data.pepiline.arkon.data.models.Metrobus;
+import com.example.data.pepiline.arkon.data.models.Vehiculo;
+import com.example.data.pepiline.arkon.data.repository.MetrobusRepository;
+import com.example.data.pepiline.arkon.data.service.AlcaldiaService;
+import com.example.data.pepiline.arkon.data.service.EstacionService;
+import com.example.data.pepiline.arkon.data.service.VehiculoService;
+
+@RestController
+public class MetrobusController {
+	
+	@Autowired
+	private AlcaldiaService alcaldiaService;
+		
+	@Autowired
+	private MetrobusRepository metrobusRepository;
+	
+	@Autowired
+	private VehiculoService vehiculoService;
+	
+	@GetMapping("/alcaldias/disponibles")
+	public ResponseEntity<Object> alcaldiasDisponibles(){
+		List<Alcaldia> lista = alcaldiaService.listaAlcaldía();
+		if(lista.isEmpty()) {
+			return new ResponseEntity<>("No existen alcaldias disponibles", HttpStatus.CONFLICT);
+		}
+		return new ResponseEntity<>(lista, HttpStatus.OK);
+	}
+	
+	@GetMapping("/vehiculos/disponibles")
+	public ResponseEntity<Object> vehiculosDisponibles(){
+		List<Vehiculo> lista = vehiculoService.unidadesDisponibles()
+		if(lista.isEmpty()) {
+			return new ResponseEntity<>("No existen vehiculos disponibles", HttpStatus.CONFLICT);
+		}
+		return new ResponseEntity<>(lista, HttpStatus.OK);
+	}
+	
+	@GetMapping("/reporte/vehiculo/{id}")
+	public ResponseEntity<Object> reporteVehiculo(@PathVariable Long id){
+
+		List<Metrobus> lista = metrobusRepository.reporte(id);
+				if(lista.isEmpty()) {
+					return new ResponseEntity<>("Ocurrio un problema, no encontramos el id que requiere", HttpStatus.CONFLICT);
+				}
+				return new ResponseEntity<>(lista, HttpStatus.OK);
+	}
+	
+	@GetMapping("/reporte/unidad/alcaldia/{alcaldia}")
+	public ResponseEntity<Object> reporteAlcaldia(@PathVariable String alcaldia){
+		return new ResponseEntity<>(metrobusRepository.reporteAlcaldia(alcaldia), HttpStatus.OK);
+	}
+	
+}

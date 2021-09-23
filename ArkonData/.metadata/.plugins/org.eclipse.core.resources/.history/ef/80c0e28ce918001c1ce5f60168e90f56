@@ -1,0 +1,28 @@
+package com.example.data.pepiline.arkon.data.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.data.pepiline.arkon.data.models.Metrobus;
+import com.example.data.pepiline.arkon.data.service.MetrobusImplementsService;
+
+@RestController
+public class MetrobusController {
+	
+	@Autowired
+	private MetrobusImplementsService metrobusImplementsService;
+	
+	@GetMapping("/status/{status}")
+	public List<Metrobus> disponibles(@PathVariable Long status){
+		return metrobusImplementsService.buscarDisponibles(status);
+	}
+	
+	@GetMapping("/historial/{id}")
+	public List<Metrobus> historial_unidad(@PathVariable Long id){
+		return metrobusImplementsService.consultarHistorial(id);
+	}
+}

@@ -1,0 +1,26 @@
+package com.example.data.pepiline.arkon.data.models;
+
+import java.math.BigDecimal;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "alcaldias")
+public class Alcaldia {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	private BigDecimal position_latitude;
+	
+	private BigDecimal position_longitude;
+	
+	private String geographic_point;
+	
+	private String nombre_alcaldia;
+}

@@ -1,0 +1,5 @@
+package com.example.data.pepiline.arkon.data.repository;
+
+public interface MetrobusRepository {
+
+}

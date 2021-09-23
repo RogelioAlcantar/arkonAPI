@@ -1,0 +1,32 @@
+package com.example.data.pepiline.arkon.data.models;
+
+import java.io.Serializable;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
+import com.sun.istack.NotNull;
+
+public class Estacion implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id_estacion;
+	
+	@NotNull
+	private Double position_latitude;
+	
+	@NotNull
+	private Double position_longitude;
+	
+	
+	@ManyToOne
+	private Alcaldia alcaldia; 
+
+}

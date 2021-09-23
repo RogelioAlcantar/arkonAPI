@@ -1,0 +1,152 @@
+package com.example.data.pepiline.arkon.data.models;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+@Table(name = "metrobus")
+public class Metrobus implements Serializable {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+
+	
+	private String date_update;
+
+	private Long vehicle_id;
+	private Long vehicle_label;
+	private Long vehicle_current_status;
+	private Long position_latitude;
+	private Long position_longitude;
+	private String geographic_point;
+	private Long position_speed;
+	private Long position_odometer;
+	private Long trip_schedule_relationship;
+	private Long trip_id;
+	private Long trip_start_date;
+	private Long trip_route_id;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getDate_update() {
+		return date_update;
+	}
+
+	public void setDate_update(String date_update) {
+		this.date_update = date_update;
+	}
+
+	public Long getVehicle_id() {
+		return vehicle_id;
+	}
+
+	public void setVehicle_id(Long vehicle_id) {
+		this.vehicle_id = vehicle_id;
+	}
+
+	public Long getVehicle_label() {
+		return vehicle_label;
+	}
+
+	public void setVehicle_label(Long vehicle_label) {
+		this.vehicle_label = vehicle_label;
+	}
+
+	public Long getVehicle_current_status() {
+		return vehicle_current_status;
+	}
+
+	public void setVehicle_current_status(Long vehicle_current_status) {
+		this.vehicle_current_status = vehicle_current_status;
+	}
+
+	public Long getPosition_latitude() {
+		return position_latitude;
+	}
+
+	public void setPosition_latitude(Long position_latitude) {
+		this.position_latitude = position_latitude;
+	}
+
+	public Long getPosition_longitude() {
+		return position_longitude;
+	}
+
+	public void setPosition_longitude(Long position_longitude) {
+		this.position_longitude = position_longitude;
+	}
+
+	public String getGeographic_point() {
+		return geographic_point;
+	}
+
+	public void setGeographic_point(String geographic_point) {
+		this.geographic_point = geographic_point;
+	}
+
+	public Long getPosition_speed() {
+		return position_speed;
+	}
+
+	public void setPosition_speed(Long position_speed) {
+		this.position_speed = position_speed;
+	}
+
+	public Long getPosition_odometer() {
+		return position_odometer;
+	}
+
+	public void setPosition_odometer(Long position_odometer) {
+		this.position_odometer = position_odometer;
+	}
+
+	public Long getTrip_schedule_relationship() {
+		return trip_schedule_relationship;
+	}
+
+	public void setTrip_schedule_relationship(Long trip_schedule_relationship) {
+		this.trip_schedule_relationship = trip_schedule_relationship;
+	}
+
+	public Long getTrip_id() {
+		return trip_id;
+	}
+
+	public void setTrip_id(Long trip_id) {
+		this.trip_id = trip_id;
+	}
+
+	public Long getTrip_start_date() {
+		return trip_start_date;
+	}
+
+	public void setTrip_start_date(Long trip_start_date) {
+		this.trip_start_date = trip_start_date;
+	}
+
+	public Long getTrip_route_id() {
+		return trip_route_id;
+	}
+
+	public void setTrip_route_id(Long trip_route_id) {
+		this.trip_route_id = trip_route_id;
+	}
+
+	private static final long serialVersionUID = 1L;
+
+}

@@ -1,0 +1,3 @@
+INSERT INTO metrobus( date_updated,vehicle_id,vehicle_label,vehicle_current_status,position_latitude,position_longitude,geographic_point,position_speed,position_odometer,trip_schedule_relationship,trip_id,trip_start_date,trip_route_id )
+VALUES
+('27/01/2021 18:00',170,112,2,19.31749916,-99.18779755,'19.3174991608,-99.1877975464',16,231,2,NULL,NULL,367);

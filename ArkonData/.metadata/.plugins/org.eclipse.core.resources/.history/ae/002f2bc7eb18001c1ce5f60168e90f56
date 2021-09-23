@@ -1,0 +1,15 @@
+package com.example.data.pepiline.arkon.data.repository;
+
+import java.util.List;
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.example.data.pepiline.arkon.data.models.Metrobus;
+
+public interface MetrobusRepository extends JpaRepository<Metrobus, Long>{
+	
+	List<Metrobus> findByVehicle_current_status(Long vehicle_current_status);
+	
+}

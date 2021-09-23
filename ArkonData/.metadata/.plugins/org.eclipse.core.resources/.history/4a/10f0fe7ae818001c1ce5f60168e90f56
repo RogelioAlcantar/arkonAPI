@@ -1,0 +1,12 @@
+package com.example.data.pepiline.arkon.data.service;
+
+import java.util.List;
+
+import com.example.data.pepiline.arkon.data.models.Metrobus;
+
+public interface MetrobusIService {
+	
+	public List<Metrobus> buscarDisponibles(Long id);
+	
+	public Metrobus consultarHistorial(Long id);
+}

@@ -1,0 +1,42 @@
+package com.example.data.pepiline.arkon.data.models;
+
+import java.io.Serializable;
+import java.math.BigDecimal;
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+@Table(name = "metrobus")
+public class Metrobus implements Serializable{
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	@Temporal(TemporalType.DATE)
+	private Date date_update;
+	
+	private Long vehicle_id;
+	private Long vehicle_label;	
+	private Long vehicle_current_status;
+	private BigDecimal position_latitude;	
+	private BigDecimal position_longitude;	
+	private String geographic_point;
+	private Long position_speed;
+	private Long position_odometer;
+	private Long trip_schedule_relationship;
+	private Long trip_id;
+	private Long trip_start_date;	
+	private Long trip_route_id;
+
+	
+	private static final long serialVersionUID = 1L;
+
+}
