@@ -36,7 +36,7 @@ public class SwaggerConfig {
 	                .title("API ArkonData")
 	                .version("1.0")
 	                .description("Este es el API que se pidio")
-	                .contact(new Contact("Rogelio Alcántar", "https://github.com/RogelioAlcantar/arkonAPI.git", "rogelio-aa@outlook.com"))
+	                .contact(new Contact("Rogelio Alcántar", "https://github.com/RogelioAlcantar/arkonData.git", "rogelio-aa@outlook.com"))
 	                .license("Apache License Version 2.0")
 	                .build();
 	}
